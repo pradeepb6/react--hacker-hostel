@@ -6,7 +6,7 @@
     "@material-ui/core": "^1.5.0",
     "@material-ui/icons": "^2.0.2",
     "create-react-app": "^1.4.3",
-    "eslint": "^5.16.0",
+    "eslint": "^6.1.0",
     "event-stream": "3.3.4",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
@@ -26,5 +26,17 @@
     "jest-junit-reporter": "^1.1.0",
     "react-test-renderer": "^16.9.0",
     "sinon": "^6.1.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
